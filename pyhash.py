@@ -90,9 +90,10 @@ $ cross-platform file integrity checker
 
         for algo, value in hash_results.items():
             if user_hash == value:
-                print(Fore.GREEN+f"match found: {algo}.")
+                input(Fore.GREEN+f"match found: {algo}.")
                 match_found = True
                 break
 
         if not match_found:
-            print(Fore.RED+"no match found.")
+            input(Fore.RED+"no match found.")
+            exit()
