@@ -5,9 +5,13 @@
 # 
 ![image](https://github.com/user-attachments/assets/e1dc76de-6aa2-443c-afb0-3e060c5f9eed)
 
-## to compile from source:
+## How to run:
+### compile from source
 * install python
 * install the required pip module `pip install colorama`
+### OR
+### download .exe
+* at the top of this repository
 
 
 
